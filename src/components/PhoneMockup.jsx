@@ -170,7 +170,7 @@ function ProductCard({ product }) {
 /* ── Main Phone Mockup ── */
 export default function PhoneMockup() {
   const trackRef = useRef(null);
-  const currentRef = useRef(0);
+  // const currentRef = useRef(0);
   const rafRef = useRef(null);
 
   useEffect(() => {
